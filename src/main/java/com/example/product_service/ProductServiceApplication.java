@@ -9,7 +9,7 @@ public class ProductServiceApplication {
 
 	public static void main(String[] args) {
 		SpringApplication.run(ProductServiceApplication.class, args);
-		System.out.println("product service running on port:8081 ");
+		System.out.println("product service running on port: 8081.... ");
 	}
 
 }

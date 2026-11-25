@@ -31,7 +31,7 @@ jobs:
 
       - name: Build Spring Boot application
         run: |
-          chmod +x mvnw
+          chmod +x mvnw 
           ./mvnw -B clean package -DskipTests
 
       - name: Set up Docker Buildx
